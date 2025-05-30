@@ -4,7 +4,6 @@ document.getElementById("summarize").addEventListener("click", async () => {
 
   const summaryType = document.getElementById("summary-type").value;
 
-  // Get API key from storage
   chrome.storage.sync.get(["geminiApiKey"], async (result) => {
     if (!result.geminiApiKey) {
       resultDiv.innerHTML =
