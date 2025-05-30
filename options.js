@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const successMessage = document.getElementById("success-message");
         successMessage.style.display = "block";
 
-        // Close the tab after a short delay to show the success message
         setTimeout(() => {
           window.close();
           // For cases where window.close() doesn't work (like when opened programmatically)
