@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setTimeout(() => {
           window.close();
-          // For cases where window.close() doesn't work (like when opened programmatically)
+          a;
           chrome.tabs.getCurrent((tab) => {
             if (tab) {
               chrome.tabs.remove(tab.id);
