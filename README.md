@@ -18,7 +18,7 @@ A powerful Chrome extension that uses AI to quickly summarize web content and ar
    ```
 2. Open **Chrome** and go to `chrome://extensions/`
 3. Enable **Developer Mode** (top right)
-4. Click **Load unpacked** and select the folder containing this extension
+4. Click **Load unpacked** and select the folder containing this extensions
 
 ## 🛠️ Usage
 
@@ -26,8 +26,6 @@ A powerful Chrome extension that uses AI to quickly summarize web content and ar
 2. Click the **AI Summarize** extension icon in the Chrome toolbar
 3. Press the **Summarize** button
 4. Instantly view the AI-generated summary in the popup
-
-
 
 ## 🧩 How it Works
 
